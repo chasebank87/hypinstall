@@ -6,7 +6,7 @@ import os
 root = tkinter.Tk()
 
 class Me:
-  def __init_(self, username, password, wgetFile):
+  def __init__(self, username, password, wgetFile):
     self.username = username
     self.password = password
     self.wgetFile = wgetFile
