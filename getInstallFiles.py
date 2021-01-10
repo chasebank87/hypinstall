@@ -3,7 +3,7 @@ import tkinter
 import tkinter.filedialog
 import os
 
-root = Tkinter.Tk()
+root = tkinter.Tk()
 
 class Me:
   def __init_(self, username, password, wgetFile):
