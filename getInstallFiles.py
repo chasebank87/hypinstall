@@ -1,6 +1,6 @@
 import getpass
-import Tkinter
-import tkFileDialog
+import tkinter
+import tkinter.filedialog
 import os
 
 root = Tkinter.Tk()
@@ -18,4 +18,4 @@ class Me:
       print(f"I got {dataLength} bytes from this file.")
     
 
-downloadInfo = Me(input("Enter your edelivery.oracle.com username: "), getpass.getpass(prompt='Enter you edelivery.oracle.com password'), tkFileDialog.askopenfile(parent=root, mode='rb', title='Select the wget file you downloaded from edelivery.oracle.com'))
+downloadInfo = Me(input("Enter your edelivery.oracle.com username: "), getpass.getpass(prompt='Enter you edelivery.oracle.com password'), tkinter.filedialog.askopenfile(parent=root, mode='rb', title='Select the wget file you downloaded from edelivery.oracle.com'))
